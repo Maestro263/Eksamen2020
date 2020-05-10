@@ -1,0 +1,57 @@
+.headerBillede {
+  background-image: url(images/header.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px; }
+
+.nyheder {
+  background-image: url(images/nyheder.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  cursor: pointer; }
+
+.program {
+  background-image: url(images/Program.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  cursor: pointer; }
+
+.blivSponsor {
+  background-image: url(images/blivsponsor.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  cursor: pointer; }
+
+.forsideSponsor {
+  color: #F06F07;
+  text-align: center; }
+
+.footerBillede {
+  background-image: url(images/footer.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 150px;
+  width: 150px; }
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: #F06F07; }
+  .footer .columnOne, .footer .columnTwo {
+    width: 50%; }
+
+/*# sourceMappingURL=styles.css.map */
