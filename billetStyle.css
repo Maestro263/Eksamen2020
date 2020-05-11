@@ -13,7 +13,7 @@
 body {
   margin: 0;
   /* Ingen kanter i siden af browser */
-  background-color: #DD8026 !important; }
+  background-color: #F2A156 !important; }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
@@ -77,11 +77,13 @@ img {
 
 .billetbund {
   color: white;
-  padding: 0 50px 30px 50px; }
+  padding: 0 50px 30px 50px;
+  background-color: #FFA034; }
 
 .sikkerhed {
   color: white;
-  padding: 0 50px 0 50px; }
+  padding: 50px;
+  background-color: #ED7E00; }
   .sikkerhed h2 {
     text-align: center; }
 
@@ -96,7 +98,9 @@ img {
 .footer {
   color: white;
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  background-color: #DB8033;
+  padding: 20px; }
   .footer .columnOne, .footer .columnTwo {
     width: 50%; }
 

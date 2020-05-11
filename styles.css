@@ -85,7 +85,7 @@ img {
   cursor: pointer; }
 
 .forsideSponsor {
-  color: #F06F07 !important;
+  color: #EE7F00;
   text-align: center; }
 
 .footerBillede {
@@ -99,7 +99,9 @@ img {
 .footer {
   display: flex;
   flex-direction: row;
-  background-color: #F06F07; }
+  background-color: #DB8033;
+  color: white;
+  padding: 20px; }
   .footer .columnOne, .footer .columnTwo {
     width: 50%; }
 

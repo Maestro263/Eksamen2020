@@ -49,7 +49,7 @@ img {
   /* Højden skal tilpasse sig */ }
 
 .sponsorTop {
-  background-color: #748f73; }
+  background-color: #758F74; }
   .sponsorTop h1 {
     text-align: center; }
   .sponsorTop .sponsorTekst {
@@ -65,7 +65,7 @@ img {
   width: 150px; }
 
 .footer {
-  background-color: #b9c7b9;
+  background-color: #597357;
   color: white;
   display: flex;
   flex-direction: row; }
