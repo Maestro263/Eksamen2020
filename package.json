@@ -1,0 +1,19 @@
+{
+  "name": "eksamen4semester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maestro263/Eksamen2020.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maestro263/Eksamen2020/issues"
+  },
+  "homepage": "https://github.com/Maestro263/Eksamen2020#readme"
+}

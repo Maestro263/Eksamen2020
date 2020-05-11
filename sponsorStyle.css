@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* Alt der gælder for mobil og højere */
+* {
+  /* Gælder alt på hele siden */
+  -webkit-box-sizing: border-box;
+  /* -webkit- browserunderstøttelse */
+  box-sizing: border-box;
+  /* Bokse har altid den størrelse man giver uanset om der tilføjes margen mv. */
+  color: white;
+  font-family: rama-gothic-e, sans-serif;
+  font-weight: 600;
+  font-style: normal; }
+
+body {
+  margin: 0;
+  /* Ingen kanter i siden af browser */ }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  /* Ingen ydre margen fra overskrifter */
+  padding: 0;
+  /* Ingen indre margen fra overskrifter */ }
+
+ul, ol {
+  margin: 0;
+  /* Ingen ydre margen fra lister */
+  padding: 0;
+  /* Ingen indre margen fra lister */
+  list-style-position: inside;
+  /* List punkter står på linje */ }
+
+li {
+  margin: 0;
+  /* Ingen ydre margen fra listpunkter */ }
+
+p {
+  margin: 0;
+  /* Ingen ydre margen fra paragraffer */
+  padding: 0;
+  /* Ingen indre margen fra paragraffer */ }
+
+/* Sikrer billeder er responsive */
+img {
+  display: block;
+  /* Billeder er et element (laver linjeskift) */
+  max-width: 100%;
+  /* Bredde må maks fylde 100% */
+  height: auto;
+  /* Højden skal tilpasse sig */ }
+
+.sponsorTop {
+  background-color: #748f73; }
+  .sponsorTop h1 {
+    text-align: center; }
+  .sponsorTop .sponsorTekst {
+    margin-left: 20px;
+    margin-right: 20px; }
+
+.footerBillede {
+  background-image: url(images/footer.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 150px;
+  width: 150px; }
+
+.footer {
+  background-color: #b9c7b9;
+  color: white;
+  display: flex;
+  flex-direction: row; }
+  .footer .columnOne, .footer .columnTwo {
+    width: 50%; }
+
+/*# sourceMappingURL=sponsorStyle.css.map */
