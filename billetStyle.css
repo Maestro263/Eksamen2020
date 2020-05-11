@@ -5,11 +5,15 @@
   -webkit-box-sizing: border-box;
   /* -webkit- browserunderstøttelse */
   box-sizing: border-box;
-  /* Bokse har altid den størrelse man giver uanset om der tilføjes margen mv. */ }
+  /* Bokse har altid den størrelse man giver uanset om der tilføjes margen mv. */
+  font-family: rama-gothic-e, sans-serif;
+  font-weight: 600;
+  font-style: normal; }
 
 body {
   margin: 0;
-  /* Ingen kanter i siden af browser */ }
+  /* Ingen kanter i siden af browser */
+  background-color: #DD8026 !important; }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
@@ -48,23 +52,23 @@ img {
   text-align: center;
   color: white; }
 
-.billetter {
-  background-color: #F06F07;
+.content h2 {
+  text-align: center;
+  color: white; }
+.content .billetter {
   display: grid;
   grid-template-columns: 1fr 1fr; }
-  .billetter img {
-    width: auto;
-    height: 350px;
-    margin-bottom: -100px; }
+.content img {
+  width: auto;
+  height: 350px;
+  margin-bottom: -100px; }
 
 .arrangementOverskrift {
-  background-color: #F06F07;
   color: white;
   text-align: center;
   padding-top: 50px; }
 
 .arrangementer {
-  background-color: #F06F07;
   display: flex;
   flex-direction: row; }
   .arrangementer img {
@@ -92,8 +96,7 @@ img {
 .footer {
   color: white;
   display: flex;
-  flex-direction: row;
-  background-color: #000000; }
+  flex-direction: row; }
   .footer .columnOne, .footer .columnTwo {
     width: 50%; }
 

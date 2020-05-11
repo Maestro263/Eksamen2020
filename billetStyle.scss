@@ -3,10 +3,14 @@
 * { /* Gælder alt på hele siden */
   -webkit-box-sizing: border-box; /* -webkit- browserunderstøttelse */
   box-sizing: border-box; /* Bokse har altid den størrelse man giver uanset om der tilføjes margen mv. */
+  font-family: rama-gothic-e, sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
 body {
   margin: 0; /* Ingen kanter i siden af browser */
+  background-color: #DD8026 !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -40,9 +44,15 @@ img {
   text-align: center;
   color: white;
 }
-.billetter{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.content{
+  h2{
+    text-align: center;
+    color: white;
+  }
+  .billetter{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
   img{
     width: auto;
     height: 350px;
@@ -91,7 +101,6 @@ img {
   color: white;
   display: flex;
   flex-direction: row;
-  background-color: #000000;
   .columnOne, .columnTwo{
     width: 50%;
   }
