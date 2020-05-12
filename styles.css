@@ -55,6 +55,21 @@ img {
   height: 100%;
   width: 100%; }
 
+.banner {
+  background-color: white;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden; }
+  .banner p {
+    animation: banner 10s infinite;
+    animation-delay: 2s;
+    color: #597357; }
+
+@keyframes banner {
+  from {
+    margin-left: -500px; }
+  to {
+    margin-left: 0; } }
 .container {
   display: flex;
   flex-direction: column;
@@ -86,8 +101,22 @@ img {
 
 .forsideSponsor {
   color: #EE7F00;
-  text-align: center; }
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden; }
+  .forsideSponsor .item2 {
+    animation: forsideSponsor 10s infinite;
+    animation-delay: 2s;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 100px; }
 
+@keyframes forsideSponsor {
+  from {
+    margin-left: -500px; }
+  to {
+    margin-left: 0; } }
 .footerBillede {
   background-image: url(images/footer.png);
   background-position: center;

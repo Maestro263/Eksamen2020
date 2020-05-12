@@ -48,6 +48,34 @@ img {
   height: auto;
   /* Højden skal tilpasse sig */ }
 
+.banner {
+  background-color: white;
+  width: 100%;
+  white-space: nowrap; }
+  .banner p {
+    animation: banner 10s infinite;
+    animation-delay: 2s;
+    color: #FFA034; }
+
+@keyframes banner {
+  from {
+    margin-left: -500px; }
+  to {
+    margin-left: 0; } }
+.banner2 {
+  background-color: #F2A156;
+  width: 100%;
+  white-space: nowrap; }
+  .banner2 p {
+    animation: banner2 10s infinite;
+    animation-delay: 2s;
+    color: black; }
+
+@keyframes banner2 {
+  from {
+    margin-left: -500px; }
+  to {
+    margin-left: 0; } }
 .overskrifter {
   text-align: center;
   color: white; }
