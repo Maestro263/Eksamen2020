@@ -89,7 +89,8 @@ img {
 .content img {
   width: auto;
   height: 350px;
-  margin-bottom: -100px; }
+  margin-bottom: -100px;
+  cursor: pointer; }
 
 .arrangementOverskrift {
   color: white;
@@ -101,16 +102,17 @@ img {
   flex-direction: row; }
   .arrangementer img {
     width: auto;
-    height: 350px; }
+    height: 350px;
+    cursor: pointer; }
 
 .billetbund {
   color: white;
-  padding: 0 50px 30px 50px;
+  padding: 20px 50px 30px 50px;
   background-color: #FFA034; }
 
 .sikkerhed {
   color: white;
-  padding: 50px;
+  padding: 20px 50px 30px 50px;
   background-color: #ED7E00; }
   .sikkerhed h2 {
     text-align: center; }
@@ -133,7 +135,42 @@ img {
     width: 50%; }
 
 @media screen and (min-width: 768px) {
-  /* Alt der ændres i tablet stående fra mobil */ }
+  /* Alt der ændres i tablet stående fra mobil */
+  .content .billetter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .content img {
+    width: auto;
+    height: 500px; }
+
+  .arrangementer {
+    justify-content: center; }
+    .arrangementer img {
+      width: auto;
+      height: 500px; }
+
+  .betalingOgSikkerhed {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly; }
+
+  .sikkerhed {
+    padding-left: 150px;
+    padding-right: 150px; }
+
+  .billetbund, .sikkerhed {
+    width: 50%; }
+    .billetbund a, .sikkerhed a {
+      color: white; }
+
+  .footer .footerBillede {
+    width: 300px;
+    height: 300px; }
+  .footer .columnTwo {
+    font-size: 24pt; } }
 @media screen and (min-width: 992px) {
   /* Alt der ændres i tablet liggende fra mobil og tablet stående */ }
 @media screen and (min-width: 1200px) {

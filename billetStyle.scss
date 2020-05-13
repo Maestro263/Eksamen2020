@@ -40,11 +40,12 @@ img {
   height: auto; /* Højden skal tilpasse sig */
 }
 
-.banner{
+.banner {
   background-color: white;
   width: 100%;
   white-space: nowrap;
-  p{
+
+  p {
     animation: banner 10s infinite;
     animation-delay: 2s;
     color: #FFA034;
@@ -61,11 +62,12 @@ img {
   }
 }
 
-.banner2{
+.banner2 {
   background-color: #F2A156;
   width: 100%;
   white-space: nowrap;
-  p{
+
+  p {
     animation: banner2 10s infinite;
     animation-delay: 2s;
     color: black;
@@ -82,57 +84,63 @@ img {
   }
 }
 
-.overskrifter{
+.overskrifter {
   text-align: center;
   color: white;
 }
-.content{
-  h2{
+
+.content {
+  h2 {
     text-align: center;
     color: white;
   }
-  .billetter{
+
+  .billetter {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  img{
+
+  img {
     width: auto;
     height: 350px;
     margin-bottom: -100px;
+    cursor: pointer;
   }
 }
 
-.arrangementOverskrift{
+.arrangementOverskrift {
   color: white;
   text-align: center;
   padding-top: 50px;
 }
 
-.arrangementer{
+.arrangementer {
   display: flex;
   flex-direction: row;
-  img{
+  img {
     width: auto;
     height: 350px;
+    cursor: pointer;
   }
 }
 
-.billetbund{
+.billetbund {
   color: white;
-  padding: 0 50px 30px 50px;
+  padding: 20px 50px 30px 50px;
   background-color: #FFA034;
 }
 
-.sikkerhed{
+.sikkerhed {
   color: white;
-  padding: 50px;
+  padding: 20px 50px 30px 50px;
   background-color: #ED7E00;
- h2{
-   text-align: center;
- }
+
+  h2 {
+    text-align: center;
+  }
 }
 
-.footerBillede{
+.footerBillede {
   background-image: url(images/footer.png);
   background-position: center;
   background-size: contain;
@@ -141,19 +149,72 @@ img {
   width: 150px;
 }
 
-.footer{
+.footer {
   color: white;
   display: flex;
   flex-direction: row;
   background-color: #DB8033;
   padding: 20px;
-  .columnOne, .columnTwo{
+
+  .columnOne, .columnTwo {
     width: 50%;
   }
 }
 
 @media screen and (min-width: 768px) {
   /* Alt der ændres i tablet stående fra mobil */
+  .content {
+    .billetter {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    img{
+      width: auto;
+      height: 500px;
+    }
+  }
+
+  .arrangementer {
+    justify-content: center;
+    img {
+      width: auto;
+      height: 500px;
+
+    }
+  }
+
+  .betalingOgSikkerhed{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .sikkerhed{
+    padding-left: 150px;
+    padding-right: 150px;
+    h2{
+
+  }
+  }
+  .billetbund, .sikkerhed{
+    width: 50%;
+    a{
+      color: white;
+    }
+
+  }
+
+  .footer{
+  .footerBillede{
+    width: 300px;
+    height: 300px;
+  }
+    .columnTwo{
+      font-size: 24pt;
+    }
+}
 }
 
 @media screen and (min-width: 992px) {
