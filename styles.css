@@ -32,6 +32,11 @@ ul, ol {
 li {
   margin: 0;
   /* Ingen ydre margen fra listpunkter */ }
+  li a {
+    text-decoration: none;
+    color: white; }
+  li a:hover {
+    color: black; }
 
 p {
   margin: 0;

@@ -33,6 +33,11 @@ ul, ol {
 li {
   margin: 0;
   /* Ingen ydre margen fra listpunkter */ }
+  li a {
+    text-decoration: none;
+    color: white; }
+  li a:hover {
+    color: black; }
 
 p {
   margin: 0;
@@ -68,7 +73,8 @@ nav {
 .banner {
   background-color: white;
   width: 100%;
-  white-space: nowrap; }
+  white-space: nowrap;
+  overflow: hidden; }
   .banner p {
     animation: banner 10s infinite;
     animation-delay: 2s;
@@ -82,7 +88,8 @@ nav {
 .banner2 {
   background-color: #F2A156;
   width: 100%;
-  white-space: nowrap; }
+  white-space: nowrap;
+  overflow: hidden; }
   .banner2 p {
     animation: banner2 10s infinite;
     animation-delay: 2s;
@@ -121,6 +128,9 @@ nav {
     width: auto;
     height: 350px;
     cursor: pointer; }
+
+.betalingOgSikkerhed a {
+  color: white; }
 
 .billetbund {
   color: white;
