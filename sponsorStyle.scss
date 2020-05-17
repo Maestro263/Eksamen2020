@@ -25,6 +25,11 @@ ul, ol {
   list-style: none;
 }
 
+i{
+  cursor: pointer;
+  padding-right: 5px;
+}
+
 li {
   margin: 0; /* Ingen ydre margen fra listpunkter */
   a {
@@ -145,7 +150,7 @@ nav {
   background-size: contain;
   background-repeat: no-repeat;
   height: 150px;
-  width: 150px;
+  width: auto;
 }
 
 .footer {
@@ -180,16 +185,26 @@ nav {
 
 form {
   background-color: #b9c7b9;
-
   .tekst {
     text-align: center;
-
     label {
       font-size: 40pt;
     }
-
     h4, label {
       color: #597357;
+    }
+  }
+  .submitButton{
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px 0 5px 0;
+    cursor: pointer;
+    h3{
+    color: #597357;
+      text-align: center;
     }
   }
 }
@@ -242,10 +257,15 @@ form {
     width: 50%;
   }
   .footer {
-    .footerBillede {
-      width: 300px;
-      height: 300px;
-      float: right;
+    .columnOne{
+      .fa-facebook-square, .fa-instagram{
+        font-size: 32pt;
+      }
+      .footerBillede {
+        width: 300px;
+        height: 300px;
+        float: right;
+      }
     }
 
     .columnTwo {

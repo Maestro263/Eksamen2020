@@ -30,6 +30,10 @@ ul, ol {
   /* List punkter står på linje */
   list-style: none; }
 
+i {
+  cursor: pointer;
+  padding-right: 5px; }
+
 li {
   margin: 0;
   /* Ingen ydre margen fra listpunkter */ }
@@ -119,7 +123,7 @@ nav {
   background-size: contain;
   background-repeat: no-repeat;
   height: 150px;
-  width: 150px; }
+  width: auto; }
 
 .footer {
   background-color: #597357;
@@ -148,6 +152,17 @@ form {
       font-size: 40pt; }
     form .tekst h4, form .tekst label {
       color: #597357; }
+  form .submitButton {
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px 0 5px 0;
+    cursor: pointer; }
+    form .submitButton h3 {
+      color: #597357;
+      text-align: center; }
 
 @media screen and (min-width: 768px) {
   /* Alt der ændres i tablet stående fra mobil */
@@ -184,7 +199,9 @@ form {
     margin-right: auto;
     width: 50%; }
 
-  .footer .footerBillede {
+  .footer .columnOne .fa-facebook-square, .footer .columnOne .fa-instagram {
+    font-size: 32pt; }
+  .footer .columnOne .footerBillede {
     width: 300px;
     height: 300px;
     float: right; }

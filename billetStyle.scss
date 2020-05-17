@@ -25,6 +25,11 @@ ul, ol {
   list-style: none;
 }
 
+i{
+  cursor: pointer;
+  padding-right: 5px;
+}
+
 li {
   margin: 0; /* Ingen ydre margen fra listpunkter */
   a{
@@ -191,7 +196,7 @@ nav {
   background-size: contain;
   background-repeat: no-repeat;
   height: 150px;
-  width: 150px;
+  width: auto;
 }
 
 .footer {
@@ -268,9 +273,6 @@ nav {
   .sikkerhed{
     padding-left: 150px;
     padding-right: 150px;
-    h2{
-
-  }
   }
   .billetbund, .sikkerhed{
     width: 50%;
@@ -280,10 +282,15 @@ nav {
 
   }
   .footer {
+    .columnOne{
+      .fa-facebook-square, .fa-instagram{
+        font-size: 32pt;
+      }
     .footerBillede {
       width: 300px;
       height: 300px;
       float: right;
+    }
     }
 
     .columnTwo {

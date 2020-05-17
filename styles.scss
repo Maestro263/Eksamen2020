@@ -24,6 +24,11 @@ ul, ol {
   list-style: none;
 }
 
+i{
+  cursor: pointer;
+  padding-right: 5px;
+}
+
 li {
   margin: 0; /* Ingen ydre margen fra listpunkter */
   a{
@@ -167,7 +172,7 @@ nav {
   background-size: contain;
   background-repeat: no-repeat;
   height: 150px;
-  width: 150px;
+  width: auto;
 }
 
 .footer {
@@ -226,10 +231,15 @@ nav {
   }
 
   .footer {
-    .footerBillede {
-      width: 300px;
-      height: 300px;
-      float: right;
+    .columnOne{
+      .fa-facebook-square, .fa-instagram{
+        font-size: 32pt;
+      }
+      .footerBillede {
+        width: 300px;
+        height: 300px;
+        float: right;
+      }
     }
 
     .columnTwo {
