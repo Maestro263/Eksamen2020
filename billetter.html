@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.typekit.net/gkm1lku.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -28,33 +30,18 @@
 
 <!-- i <body> har man alt indhold på siden -->
 <body>
-<nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="index.html">SLAGELSE FESTUGE</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Forside <span class="sr-only"></span></a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="billetter.html">Køb billetter</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="sponsor.html">Bliv sponsor</a>
-            </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-    </div>
+<nav>
+    <ul>
+        <i class="fa fa-bars"></i>
+        <a href="index.html"><li class="item">Forside</li></a>
+        <a href="billetter.html"><li class="item">Køb Billetter</li></a>
+        <a href="sponsor.html"><li class="item">Bliv Sponsor</li></a>
+    </ul>
 </nav>
 
+
 <div class="banner">
-    <p>SLAGELSE FESTUGE - SLAGELSE - DIN, MIN & VORES FESTUGE! - SLAGELSE FESTUGE - SLAGELSE - DIN, MIN & VORES FESTUGE!</p>
+    <p>SLAGELSE FESTUGE - SLAGELSE - DIN, MIN & VORES FESTUGE! - SLAGELSE FESTUGE - SLAGELSE - DIN, MIN & VORES FESTUGE! - SLAGELSE FESTUGE - SLAGELSE - DIN, MIN & VORES FESTUGE! - SLAGELSE FESTUGE - SLAGELSE - DIN, MIN & VORES FESTUGE! - SLAGELSE FESTUGE - SLAGELSE - DIN, MIN & VORES FESTUGE! - SLAGELSE FESTUGE - SLAGELSE - DIN, MIN & VORES FESTUGE! - SLAGELSE FESTUGE - SLAGELSE - DIN, MIN & VORES FESTUGE! - SLAGELSE FESTUGE - SLAGELSE - DIN, MIN & VORES FESTUGE! - SLAGELSE FESTUGE - SLAGELSE - DIN, MIN & VORES FESTUGE! - SLAGELSE FESTUGE - SLAGELSE - DIN, MIN & VORES FESTUGE! - SLAGELSE FESTUGE - SLAGELSE - DIN, MIN & VORES FESTUGE! - SLAGELSE FESTUGE - SLAGELSE - DIN, MIN & VORES FESTUGE!</p>
 </div>
 
 <div class="overskrifter" style="padding: 20px;">
@@ -135,6 +122,16 @@
         <p>4200 Slagelse</p>
     </div>
 </div>
+
+<script>
+    $(document).ready(function(){
+        $(".fa-bars").click(function() {
+            $("li").toggle();
+        });
+
+    });
+</script>
+
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>

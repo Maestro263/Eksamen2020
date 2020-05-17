@@ -22,6 +22,7 @@ ul, ol {
   margin: 0; /* Ingen ydre margen fra lister */
   padding: 0; /* Ingen indre margen fra lister */
   list-style-position: inside; /* List punkter står på linje */
+  list-style: none;
 }
 
 li {
@@ -38,6 +39,29 @@ img {
   display: block; /* Billeder er et element (laver linjeskift) */
   max-width: 100%; /* Bredde må maks fylde 100% */
   height: auto; /* Højden skal tilpasse sig */
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  background-color: #F2A156;
+  color: white;
+  padding: 10px;
+  font-size: 22pt;
+
+  ul {
+    min-height: 10px;
+
+    .fa-bars {
+      float: right;
+      cursor: pointer;
+    }
+
+    .item {
+      display: none;
+      color: white;
+    }
+  }
 }
 
 .banner {
@@ -163,6 +187,22 @@ img {
 
 @media screen and (min-width: 768px) {
   /* Alt der ændres i tablet stående fra mobil */
+  nav {
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+
+      .fa-bars {
+        display: none;
+      }
+
+      .item {
+        display: block;
+      }
+    }
+  }
+
   .content {
     .billetter {
       display: flex;

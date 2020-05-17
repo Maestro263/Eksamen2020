@@ -21,6 +21,7 @@ ul, ol {
   margin: 0; /* Ingen ydre margen fra lister */
   padding: 0; /* Ingen indre margen fra lister */
   list-style-position: inside; /* List punkter står på linje */
+  list-style: none;
 }
 
 li {
@@ -39,7 +40,31 @@ img {
   height: auto; /* Højden skal tilpasse sig */
 }
 
-.CTA{
+nav {
+  display: flex;
+  flex-direction: column;
+  background-color: #F2A156;
+  color: white;
+  padding: 10px;
+  font-size: 22pt;
+
+  ul {
+    min-height: 10px;
+
+    .fa-bars {
+      float: right;
+      cursor: pointer;
+      display: block;
+    }
+
+    .item {
+      display: none;
+      color: white;
+    }
+  }
+}
+
+.CTA {
   position: absolute;
   right: 0;
   font-size: 22pt;
@@ -55,7 +80,7 @@ img {
   cursor: pointer;
 }
 
-.headerBillede{
+.headerBillede {
   background-image: url(images/header.png);
   background-position: center;
   background-size: cover;
@@ -64,12 +89,13 @@ img {
   width: 100%;
 }
 
-.banner{
+.banner {
   background-color: white;
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
-  p{
+
+  p {
     animation: banner 10s infinite;
     animation-delay: 2s;
     color: #597357;
@@ -87,11 +113,12 @@ img {
 }
 
 
-.container{
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  img{
+
+  img {
     margin-bottom: 20px;
     height: 200px;
     width: 100px;
@@ -99,13 +126,14 @@ img {
   }
 }
 
-.forsideSponsor{
+.forsideSponsor {
   color: #EE7F00;
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
   margin-bottom: 30px;
-  .item2{
+
+  .item2 {
     animation: forsideSponsor 10s infinite;
     animation-delay: 2s;
     display: flex;
@@ -126,9 +154,7 @@ img {
 }
 
 
-
-
-.footerBillede{
+.footerBillede {
   background-image: url(images/footer.png);
   background-position: center;
   background-size: contain;
@@ -137,35 +163,56 @@ img {
   width: 150px;
 }
 
-.footer{
+.footer {
   display: flex;
   flex-direction: row;
   background-color: #DB8033;
   color: white;
   padding: 20px;
-  .columnOne, .columnTwo{
+
+  .columnOne, .columnTwo {
     width: 50%;
   }
 }
 
 @media screen and (min-width: 768px) {
   /* Alt der ændres i tablet stående fra mobil */
-  .container{
+  nav {
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+
+      .fa-bars {
+        display: none;
+      }
+
+      .item {
+        display: block;
+      }
+    }
+  }
+
+
+  .container {
     display: flex;
     flex-direction: row;
-   justify-content: space-between;
-    img{
+    justify-content: space-between;
+
+    img {
       height: 500px;
       width: 300px;
     }
   }
 
-  .footer{
-    .footerBillede{
+  .footer {
+    .footerBillede {
       width: 300px;
       height: 300px;
     }
-    .columnTwo{
+
+    .columnTwo {
       font-size: 24pt;
     }
   }

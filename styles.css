@@ -26,7 +26,8 @@ ul, ol {
   padding: 0;
   /* Ingen indre margen fra lister */
   list-style-position: inside;
-  /* List punkter står på linje */ }
+  /* List punkter står på linje */
+  list-style: none; }
 
 li {
   margin: 0;
@@ -46,6 +47,23 @@ img {
   /* Bredde må maks fylde 100% */
   height: auto;
   /* Højden skal tilpasse sig */ }
+
+nav {
+  display: flex;
+  flex-direction: column;
+  background-color: #F2A156;
+  color: white;
+  padding: 10px;
+  font-size: 22pt; }
+  nav ul {
+    min-height: 10px; }
+    nav ul .fa-bars {
+      float: right;
+      cursor: pointer;
+      display: block; }
+    nav ul .item {
+      display: none;
+      color: white; }
 
 .CTA {
   position: absolute;
@@ -133,6 +151,15 @@ img {
 
 @media screen and (min-width: 768px) {
   /* Alt der ændres i tablet stående fra mobil */
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    nav ul .fa-bars {
+      display: none; }
+    nav ul .item {
+      display: block; }
+
   .container {
     display: flex;
     flex-direction: row;
