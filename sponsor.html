@@ -34,9 +34,11 @@
 <nav>
     <ul>
         <i class="fa fa-bars"></i>
+         <i class="fa fa-search"></i>
         <li class="item"><a href="index.html">Forside</a></li>
         <li class="item"><a href="billetter.html">Køb Billetter</a></li>
         <li class="item"><a href="sponsor.html">Bliv Sponsor</a></li>
+        <input class="item" type="text" placeholder="Search.." name="search">
     </ul>
 </nav>
 
@@ -50,8 +52,10 @@
         DIN, MIN & VORES FESTUGE! - SLAGELSE FESTUGE - SLAGELSE - DIN, MIN & VORES FESTUGE! - SLAGELSE FESTUGE -
         SLAGELSE - DIN, MIN & VORES FESTUGE!</p></div>
 
+
 <div class="sponsorTop">
     <h1>BLIV SPONSOR</h1>
+    <div class="sponsorContainer">
     <div class="sponsorBillede">
         <img src="images/sponsorBillede.png" alt="Sponsor Billede">
     </div>
@@ -68,6 +72,7 @@
             natus nihil quasi repudiandae ut. Dolorum ea iste iure laudantium neque obcaecati pariatur possimus
             reiciendis vel vitae. Aperiam, deserunt ex hic iste iusto nesciunt, nisi odio perferendis porro, provident
             quam quibusdam quidem reprehenderit soluta ullam.</p>
+    </div>
     </div>
 </div>
 
@@ -118,7 +123,8 @@
     </div>
     <div class="columnTwo">
         <h3> SLAGELSE FESTUGE</h3>
-        <p>CVR. 25720296</p>
+        <h3>CVR. 25720296</h3>
+        <br>
         <p>KONTAKT</p>
         <p>51 26 22 99</p>
         <p>hsm@event-slagelse.dk</p>
@@ -129,8 +135,8 @@
 
 <script>
     $(document).ready(function () {
-        $(".fa-bars").click(function () {
-            $("li").toggle();
+        $(".fa-bars, .fa-search").click(function () {
+            $(".item").toggle();
         });
 
     });

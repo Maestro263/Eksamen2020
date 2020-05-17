@@ -41,16 +41,24 @@
 <nav>
     <ul>
         <i class="fa fa-bars"></i>
+        <i class="fa fa-search"></i>
         <li class="item"><a href="index.html">Forside</a></li>
         <li class="item"><a href="billetter.html">Køb Billetter</a></li>
         <li class="item"><a href="sponsor.html">Bliv Sponsor</a></li>
+        <input class="item" type="text" placeholder="Search.." name="search">
     </ul>
 </nav>
 
 
 <div class="banner">
-    <p>SLAGELSE FESTUGE - SLAGELSE - DIN, MIN & VORES FESTUGE! - SLAGELSE FESTUGE - SLAGELSE - DIN, MIN & VORES FESTUGE! - SLAGELSE FESTUGE - SLAGELSE - DIN, MIN & VORES FESTUGE! - SLAGELSE FESTUGE - SLAGELSE - DIN, MIN & VORES FESTUGE! - SLAGELSE FESTUGE - SLAGELSE - DIN, MIN & VORES FESTUGE! - SLAGELSE FESTUGE - SLAGELSE - DIN, MIN & VORES FESTUGE! - SLAGELSE FESTUGE - SLAGELSE - DIN, MIN & VORES FESTUGE! - SLAGELSE FESTUGE - SLAGELSE - DIN, MIN & VORES FESTUGE! - SLAGELSE FESTUGE - SLAGELSE - DIN, MIN & VORES FESTUGE! - SLAGELSE FESTUGE - SLAGELSE - DIN, MIN & VORES FESTUGE! - SLAGELSE FESTUGE - SLAGELSE - DIN, MIN & VORES FESTUGE! - SLAGELSE FESTUGE - SLAGELSE - DIN, MIN & VORES FESTUGE!</p></div>
-
+    <p>SLAGELSE FESTUGE - SLAGELSE - DIN, MIN & VORES FESTUGE! - SLAGELSE FESTUGE - SLAGELSE - DIN, MIN & VORES FESTUGE!
+        - SLAGELSE FESTUGE - SLAGELSE - DIN, MIN & VORES FESTUGE! - SLAGELSE FESTUGE - SLAGELSE - DIN, MIN & VORES
+        FESTUGE! - SLAGELSE FESTUGE - SLAGELSE - DIN, MIN & VORES FESTUGE! - SLAGELSE FESTUGE - SLAGELSE - DIN, MIN &
+        VORES FESTUGE! - SLAGELSE FESTUGE - SLAGELSE - DIN, MIN & VORES FESTUGE! - SLAGELSE FESTUGE - SLAGELSE - DIN,
+        MIN & VORES FESTUGE! - SLAGELSE FESTUGE - SLAGELSE - DIN, MIN & VORES FESTUGE! - SLAGELSE FESTUGE - SLAGELSE -
+        DIN, MIN & VORES FESTUGE! - SLAGELSE FESTUGE - SLAGELSE - DIN, MIN & VORES FESTUGE! - SLAGELSE FESTUGE -
+        SLAGELSE - DIN, MIN & VORES FESTUGE!</p>
+</div>
 
 
 <div class="container">
@@ -70,6 +78,16 @@
     <img src="images/logo_Eiland535_218.jpg" alt="Eiland">
     <img src="images/danske-bank-1.png" alt="Danske Bank">
     <img src="images/Dansk_Revision.png" alt="Dansk Revision">
+    <img src="images/seccon-1.png" alt="Seccon">
+    <img src="images/RetogRaadAdvokaterLogo.jpg" alt="Ret og Raad">
+    <img src="images/Ollerup_Maskinfabrik_Slagelse-e1560163816893.png" alt="Maskinefabrik">
+    <img src="images/NordeaFonden_Logo_Payoff_Black_RGB.png" alt="Nordeafonden">
+    <img src="images/nordbo-1.png" alt="Nordbo">
+    <img src="images/loxam.png" alt="Loxam">
+    <img src="images/louis-nielsen-1.png" alt="Louis Nielsen">
+    <img src="images/logo-hellig-anders-konditori-e1560969022179.png" alt="Konditor">
+    <img src="images/Laur.-Christensen-og-Sønner-logo.png" alt="Christensen">
+    <img src="images/HJ_Gruppen.png" alt="HJGruppen">
 </div>
 </div>
 
@@ -77,24 +95,26 @@
 <div class="footer">
     <div class="columnOne">
         <h3>FØLG MED </h3>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-facebook-square"></i>
         <div class="footerBillede"></div>
     </div>
     <div class="columnTwo">
         <h3> SLAGELSE FESTUGE</h3>
-        <p>CVR. 25720296</p>
+        <h3>CVR. 25720296</h3>
+        <br>
         <p>KONTAKT</p>
         <p>51 26 22 99</p>
         <p>hsm@event-slagelse.dk</p>
         <p>Søndre Stationsvej 26, 1. sal</p>
         <p>4200 Slagelse</p>
     </div>
-
 </div>
 
 <script>
-    $(document).ready(function(){
-        $(".fa-bars").click(function() {
-            $("li").toggle();
+    $(document).ready(function () {
+        $(".fa-bars, .fa-search").click(function () {
+            $(".item").toggle();
         });
 
     });

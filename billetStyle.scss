@@ -61,23 +61,30 @@ nav {
   ul {
     min-height: 10px;
 
-    .fa-bars {
+    i {
       float: right;
       cursor: pointer;
+      padding-right: 10px;
     }
 
     .item {
       display: none;
       color: white;
     }
+
+    input {
+      color: black !important;
+    }
   }
 }
+
 
 .banner {
   background-color: white;
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
+  padding-top: 20px;
   p {
     animation: banner 10s infinite;
     animation-delay: 2s;
@@ -188,14 +195,27 @@ nav {
 }
 
 .footer {
+  background-color: #DB8033;
   color: white;
   display: flex;
   flex-direction: row;
-  background-color: #DB8033;
   padding: 20px;
-
   .columnOne, .columnTwo {
     width: 50%;
+    p {
+      margin-bottom: 0;
+    }
+  }
+  .columnOne {
+    text-align: end;
+    padding-right: 22px;
+    h3 {
+      margin-bottom: 0;
+    }
+    .fa-facebook-square, .fa-instagram {
+      font-size: 22pt;
+      color: black;
+    }
   }
 }
 
@@ -207,7 +227,7 @@ nav {
       flex-direction: row;
       justify-content: space-around;
 
-      .fa-bars {
+      .fa-search, .fa-bars {
         display: none;
       }
 
@@ -259,16 +279,17 @@ nav {
     }
 
   }
+  .footer {
+    .footerBillede {
+      width: 300px;
+      height: 300px;
+      float: right;
+    }
 
-  .footer{
-  .footerBillede{
-    width: 300px;
-    height: 300px;
-  }
-    .columnTwo{
+    .columnTwo {
       font-size: 24pt;
     }
-}
+  }
 }
 
 @media screen and (min-width: 992px) {
