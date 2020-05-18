@@ -39,9 +39,9 @@ li {
   /* Ingen ydre margen fra listpunkter */ }
   li a {
     text-decoration: none;
-    color: white; }
-  li a:hover {
     color: black; }
+  li a:hover {
+    color: #758F74; }
 
 p {
   margin: 0;
@@ -61,26 +61,27 @@ img {
 nav {
   display: flex;
   flex-direction: column;
-  background-color: #758F74;
-  color: white;
   padding: 10px;
-  font-size: 22pt; }
+  font-size: 22pt;
+  background-color: white; }
   nav ul {
     min-height: 10px; }
     nav ul i {
       float: right;
       cursor: pointer;
-      padding-right: 10px; }
+      padding-right: 10px;
+      color: black; }
     nav ul .item {
-      display: none;
-      color: white; }
+      display: none; }
     nav ul input {
       color: black !important; }
 
 .sponsorTop {
   background-color: #758F74; }
   .sponsorTop h1 {
-    text-align: center; }
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 30px; }
   .sponsorTop .sponsorTekst {
     margin-left: 20px;
     margin-right: 20px;
@@ -110,7 +111,7 @@ nav {
   .banner2 p {
     animation: banner 10s infinite;
     animation-delay: 2s;
-    color: #FFA034; }
+    color: #b9c7b9; }
 
 @keyframes banner2 {
   from {
@@ -166,15 +167,6 @@ form {
 
 @media screen and (min-width: 768px) {
   /* Alt der ændres i tablet stående fra mobil */
-  nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around; }
-    nav ul .fa-search, nav ul .fa-bars {
-      display: none; }
-    nav ul .item {
-      display: block; }
-
   .sponsorContainer {
     display: flex;
     flex-direction: row-reverse;

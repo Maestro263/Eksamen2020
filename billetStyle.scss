@@ -34,10 +34,10 @@ li {
   margin: 0; /* Ingen ydre margen fra listpunkter */
   a{
     text-decoration: none;
-    color: white;
+    color: black;
   }
   a:hover{
-    color: black;
+    color: #D06739;
   }
 }
 
@@ -58,14 +58,11 @@ img {
 nav {
   display: flex;
   flex-direction: column;
-  background-color: #F2A156;
-  color: white;
   padding: 10px;
   font-size: 22pt;
-
+  background-color: white;
   ul {
     min-height: 10px;
-
     i {
       float: right;
       cursor: pointer;
@@ -74,9 +71,7 @@ nav {
 
     .item {
       display: none;
-      color: white;
     }
-
     input {
       color: black !important;
     }
@@ -132,6 +127,7 @@ nav {
 .overskrifter {
   text-align: center;
   color: white;
+  margin-top: 40px;
 }
 
 .content {
@@ -182,7 +178,7 @@ nav {
 
 .sikkerhed {
   color: white;
-  padding: 20px 50px 30px 50px;
+  padding: 50px 50px 30px 50px;
   background-color: #ED7E00;
 
   h2 {
@@ -226,21 +222,6 @@ nav {
 
 @media screen and (min-width: 768px) {
   /* Alt der ændres i tablet stående fra mobil */
-  nav {
-    ul {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-
-      .fa-search, .fa-bars {
-        display: none;
-      }
-
-      .item {
-        display: block;
-      }
-    }
-  }
 
   .content {
     .billetter {

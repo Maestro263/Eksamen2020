@@ -34,11 +34,10 @@ li {
   margin: 0; /* Ingen ydre margen fra listpunkter */
   a {
     text-decoration: none;
-    color: white;
-  }
-
-  a:hover {
     color: black;
+  }
+  a:hover{
+    color: #758F74;
   }
 }
 
@@ -57,25 +56,21 @@ img {
 nav {
   display: flex;
   flex-direction: column;
-  background-color: #758F74;
-  color: white;
   padding: 10px;
   font-size: 22pt;
-
+  background-color: white;
   ul {
     min-height: 10px;
-
     i {
       float: right;
       cursor: pointer;
       padding-right: 10px;
+      color: black;
     }
 
     .item {
       display: none;
-      color: white;
     }
-
     input {
       color: black !important;
     }
@@ -88,6 +83,8 @@ nav {
 
   h1 {
     text-align: center;
+    padding-top: 20px;
+    margin-bottom: 30px;
   }
 
   .sponsorTekst {
@@ -130,7 +127,7 @@ nav {
   p {
     animation: banner 10s infinite;
     animation-delay: 2s;
-    color: #FFA034;
+    color: #b9c7b9;
   }
 }
 
@@ -211,21 +208,6 @@ form {
 
 @media screen and (min-width: 768px) {
   /* Alt der ændres i tablet stående fra mobil */
-  nav {
-    ul {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-
-      .fa-search, .fa-bars {                                                    
-        display: none;
-      }
-
-      .item {
-        display: block;
-      }
-    }
-  }
 
   .sponsorContainer {
     display: flex;

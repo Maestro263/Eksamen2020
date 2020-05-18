@@ -33,10 +33,10 @@ li {
   margin: 0; /* Ingen ydre margen fra listpunkter */
   a{
     text-decoration: none;
-    color: white;
+    color: black;
   }
   a:hover{
-    color: black;
+    color: #D06739;
   }
 }
 
@@ -55,10 +55,11 @@ img {
 nav {
   display: flex;
   flex-direction: column;
-  background-color: #F2A156;
-  color: white;
   padding: 10px;
   font-size: 22pt;
+  background-color: white;
+  margin-top: 80px;
+  margin-bottom: 30px;
   ul {
     min-height: 10px;
     i {
@@ -66,9 +67,9 @@ nav {
       cursor: pointer;
       padding-right: 10px;
     }
+
     .item {
       display: none;
-      color: white;
     }
     input {
       color: black !important;
@@ -79,9 +80,9 @@ nav {
 .CTA {
   position: absolute;
   right: 0;
+  top: 30px;
   font-size: 22pt;
   background-color: #F2A156;
-  color: #F06F07;
   width: 110px;
   height: 50px;
   text-align: center;
@@ -90,15 +91,26 @@ nav {
   border-color: white;
   margin: 15px;
   cursor: pointer;
+  a{
+    color: black;
+  }
+  a:hover{
+    color: white;
+  }
 }
 
 .headerBillede {
-  background-image: url(images/header-desktop.png);
+  background-image: url(images/header.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
+  margin: -100px 0 -100px 0;
+}
+
+.headerBilledeWeb{
+  display: none;
 }
 
 .banner {
@@ -129,11 +141,12 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 80px;
 
   img {
     margin-bottom: 20px;
-    height: 200px;
-    width: 100px;
+    height: 400px;
+    width: 200px;
     cursor: pointer;
   }
 }
@@ -143,7 +156,8 @@ nav {
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
-  margin-bottom: 30px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 
   .item2 {
     animation: forsideSponsor 10s infinite;
@@ -202,22 +216,20 @@ nav {
 
 @media screen and (min-width: 768px) {
   /* Alt der ændres i tablet stående fra mobil */
-  nav {
-    ul {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
 
-      .fa-search, .fa-bars {
-        display: none;
-      }
-
-      .item {
-        display: block;
-      }
-    }
+  .headerBillede{
+    display: none;
   }
-
+  .headerBilledeWeb{
+    background-image: url(images/header-desktop.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin: -60px 0 -100px 0;
+  }
 
   .container {
     display: flex;
