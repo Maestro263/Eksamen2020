@@ -173,6 +173,8 @@ nav {
       margin-bottom: 0; }
       .footer .columnOne p a, .footer .columnTwo p a {
         color: white; }
+      .footer .columnOne p a:hover, .footer .columnTwo p a:hover {
+        color: black; }
   .footer .columnOne {
     text-align: end;
     padding-right: 22px; }

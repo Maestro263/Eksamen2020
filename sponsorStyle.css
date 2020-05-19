@@ -107,11 +107,15 @@ nav {
 .banner2 {
   width: 100%;
   white-space: nowrap;
-  overflow: hidden; }
+  overflow: hidden;
+  background-color: #b9c7b9;
+  margin-top: -18px; }
   .banner2 p {
     animation: banner 10s infinite;
     animation-delay: 2s;
-    color: #b9c7b9; }
+    color: #FFA007;
+    padding: 10px 0 10px 0;
+    margin-bottom: 0; }
 
 @keyframes banner2 {
   from {
@@ -138,6 +142,8 @@ nav {
       margin-bottom: 0; }
       .footer .columnOne p a, .footer .columnTwo p a {
         color: white; }
+      .footer .columnOne p a:hover, .footer .columnTwo p a:hover {
+        color: black; }
   .footer .columnOne {
     text-align: end;
     padding-right: 22px; }
