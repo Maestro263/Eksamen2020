@@ -171,6 +171,8 @@ nav {
     width: 50%; }
     .footer .columnOne p, .footer .columnTwo p {
       margin-bottom: 0; }
+      .footer .columnOne p a, .footer .columnTwo p a {
+        color: white; }
   .footer .columnOne {
     text-align: end;
     padding-right: 22px; }
@@ -182,6 +184,9 @@ nav {
 
 @media screen and (min-width: 768px) {
   /* Alt der ændres i tablet stående fra mobil */
+  h1 {
+    font-size: 100pt !important; }
+
   .headerBillede {
     display: none; }
 
