@@ -187,6 +187,8 @@ nav {
   h1 {
     font-size: 100pt !important; }
 
+  .content h2 {
+    font-size: 65pt; }
   .content .billetter {
     display: flex;
     flex-direction: row;

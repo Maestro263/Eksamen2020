@@ -231,7 +231,11 @@ nav {
   h1{
     font-size: 100pt !important;
   }
+
   .content {
+    h2{
+      font-size: 65pt;
+    }
     .billetter {
       display: flex;
       flex-direction: row;
@@ -242,6 +246,7 @@ nav {
       width: auto;
       height: 500px;
     }
+
   }
 
   .arrangementer {

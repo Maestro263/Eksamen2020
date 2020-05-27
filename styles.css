@@ -210,6 +210,11 @@ nav {
       height: 500px;
       width: 300px; }
 
+  .forsideSponsor .item1 {
+    margin-bottom: 6%; }
+  .forsideSponsor .item2 {
+    margin-bottom: 8%; }
+
   .footer .columnOne .fa-facebook-square, .footer .columnOne .fa-instagram {
     font-size: 32pt; }
   .footer .columnOne .footerBillede {
