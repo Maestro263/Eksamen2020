@@ -58,11 +58,9 @@ img {
 nav {
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 30px 10px 10px 10px;
   font-size: 22pt;
   background-color: white;
-  margin-top: 80px;
-  margin-bottom: 30px;
   i {
     float: right;
     cursor: pointer;
@@ -176,15 +174,41 @@ nav {
   color: white;
   padding: 20px 50px 30px 50px;
   background-color: #FFA034;
+  ul{
+    li{
+      list-style-type: square;
+      font-size: 22pt;
+    }
+  }
+  .hidden{
+    display: none;
+  }
+}
+.readMore:hover{
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .sikkerhed {
   color: white;
   padding: 50px 50px 30px 50px;
   background-color: #ED7E00;
-
   h2 {
     text-align: center;
+  }
+  ul{
+    li{
+      list-style-type: square;
+      font-size: 22pt;
+    }
+    .gemt{
+      display: none;
+    }
+
+  }
+  .læsMere:hover{
+    cursor: pointer;
+    text-decoration: underline;
   }
 }
 
@@ -266,11 +290,9 @@ nav {
     width: 100%;
     justify-content: space-evenly;
   }
-  .sikkerhed{
+  .billetbund, .sikkerhed{
     padding-left: 150px;
     padding-right: 150px;
-  }
-  .billetbund, .sikkerhed{
     width: 50%;
     a{
       color: white;
