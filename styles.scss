@@ -60,20 +60,20 @@ nav {
   background-color: white;
   margin-top: 80px;
   margin-bottom: 30px;
+  i {
+    float: right;
+    cursor: pointer;
+    padding-right: 10px;
+  }
   ul {
     min-height: 10px;
-    i {
-      float: right;
-      cursor: pointer;
-      padding-right: 10px;
-    }
-
     .item {
       display: none;
     }
-    input {
-      color: black !important;
-    }
+  }
+  input {
+    color: black !important;
+    display: none;
   }
 }
 
@@ -100,7 +100,7 @@ nav {
 }
 
 .headerBillede {
-  background-image: url(images/header.png);
+  background-image: url(images/header.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -181,7 +181,7 @@ nav {
 
 
 .footerBillede {
-  background-image: url(images/footer.png);
+  background-image: url(images/footer.jpg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -229,7 +229,7 @@ nav {
     display: none;
   }
   .headerBilledeWeb{
-    background-image: url(images/header-desktop.png);
+    background-image: url(images/header-desktop.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

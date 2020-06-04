@@ -63,18 +63,20 @@ nav {
   flex-direction: column;
   padding: 10px;
   font-size: 22pt;
-  background-color: white; }
+  background-color: white;
+  margin-bottom: 10px; }
+  nav i {
+    float: right;
+    cursor: pointer;
+    padding-right: 10px;
+    color: black; }
   nav ul {
     min-height: 10px; }
-    nav ul i {
-      float: right;
-      cursor: pointer;
-      padding-right: 10px;
-      color: black; }
     nav ul .item {
       display: none; }
-    nav ul input {
-      color: black !important; }
+  nav input {
+    color: black !important;
+    display: none; }
 
 .sponsorTop {
   background-color: #758F74; }
@@ -123,7 +125,7 @@ nav {
   to {
     margin-left: 0; } }
 .footerBillede {
-  background-image: url(images/footer.png);
+  background-image: url(images/footer.jpg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
