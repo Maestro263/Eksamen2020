@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a694a155-8d1c-439c-b560-5f944146f7f8" name="Default Changelist" comment="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop&#10;Fejlside oprettet, mangler justeringer&#10;Lavet Navigationsbar via jQuery og lavet den responsiv. Startet på kontaktformularen.&#10;rettet på små design fejl.&#10;mangler at justere kontaktformular, og tilføje billede til sponsor banner.&#10;Rettet på forskellige små justeringsfejl. Næsten færdig med hjemmesiden, men skal have skiftet header-billede.&#10;Rettet på justeringsfejl på alle sider.&#10;Mangler opengraph og andet finpudsning&#10;Tilføjet meta og OG&#10;Rettet billeder&#10;Helt færdig med siden">
+      <change afterPath="$PROJECT_DIR$/images/tickets404-12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fejl404.html" beforeDir="false" afterPath="$PROJECT_DIR$/fejl404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fejlStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/fejlStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fejlStyle.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/fejlStyle.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fejlStyle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/fejlStyle.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/tickets404-12.jpg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/Maestro263/Eksamen2020.git" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bYMinw5NcGyeyzDEaapu39ImaP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/forside" />
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a694a155-8d1c-439c-b560-5f944146f7f8" name="Default Changelist" comment="" />
+      <created>1588804703314</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588804703314</updated>
+      <workItem from="1588804706385" duration="485000" />
+      <workItem from="1588805443833" duration="8209000" />
+      <workItem from="1588894232967" duration="1072000" />
+      <workItem from="1588982030233" duration="806000" />
+      <workItem from="1588983186067" duration="147000" />
+      <workItem from="1588983417366" duration="1141000" />
+      <workItem from="1589107280592" duration="538000" />
+      <workItem from="1589140513413" duration="38965000" />
+      <workItem from="1589926952808" duration="24593000" />
+      <workItem from="1591294073589" duration="83000" />
+      <workItem from="1591348997777" duration="978000" />
+    </task>
+    <task id="LOCAL-00001" summary="alle sider er lavet, men de skal justeres">
+      <created>1589189597105</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589189597105</updated>
+    </task>
+    <task id="LOCAL-00002" summary="alle sider er lavet, men de skal justeres">
+      <created>1589191046745</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589191046745</updated>
+    </task>
+    <task id="LOCAL-00003" summary="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer">
+      <created>1589242658642</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589242658642</updated>
+    </task>
+    <task id="LOCAL-00004" summary="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop">
+      <created>1589412530378</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589412530378</updated>
+    </task>
+    <task id="LOCAL-00005" summary="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop">
+      <created>1589412545325</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589412545325</updated>
+    </task>
+    <task id="LOCAL-00006" summary="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop&#10;Fejlside oprettet, mangler justeringer">
+      <created>1589416564587</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589416564587</updated>
+    </task>
+    <task id="LOCAL-00007" summary="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop&#10;Fejlside oprettet, mangler justeringer&#10;Lavet Navigationsbar via jQuery og lavet den responsiv. Startet på kontaktformularen.">
+      <created>1589677134419</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589677134419</updated>
+    </task>
+    <task id="LOCAL-00008" summary="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop&#10;Fejlside oprettet, mangler justeringer&#10;Lavet Navigationsbar via jQuery og lavet den responsiv. Startet på kontaktformularen.&#10;rettet på små design fejl.&#10;mangler at justere kontaktformular, og tilføje billede til sponsor banner.">
+      <created>1589717115625</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1589717115626</updated>
+    </task>
+    <task id="LOCAL-00009" summary="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop&#10;Fejlside oprettet, mangler justeringer&#10;Lavet Navigationsbar via jQuery og lavet den responsiv. Startet på kontaktformularen.&#10;rettet på små design fejl.&#10;mangler at justere kontaktformular, og tilføje billede til sponsor banner.&#10;Rettet på forskellige små justeringsfejl. Næsten færdig med hjemmesiden, men skal have skiftet header-billede.">
+      <created>1589737073152</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1589737073152</updated>
+    </task>
+    <task id="LOCAL-00010" summary="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop&#10;Fejlside oprettet, mangler justeringer&#10;Lavet Navigationsbar via jQuery og lavet den responsiv. Startet på kontaktformularen.&#10;rettet på små design fejl.&#10;mangler at justere kontaktformular, og tilføje billede til sponsor banner.&#10;Rettet på forskellige små justeringsfejl. Næsten færdig med hjemmesiden, men skal have skiftet header-billede.">
+      <created>1589737085143</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1589737085143</updated>
+    </task>
+    <task id="LOCAL-00011" summary="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop&#10;Fejlside oprettet, mangler justeringer&#10;Lavet Navigationsbar via jQuery og lavet den responsiv. Startet på kontaktformularen.&#10;rettet på små design fejl.&#10;mangler at justere kontaktformular, og tilføje billede til sponsor banner.&#10;Rettet på forskellige små justeringsfejl. Næsten færdig med hjemmesiden, men skal have skiftet header-billede.">
+      <created>1589757189082</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1589757189082</updated>
+    </task>
+    <task id="LOCAL-00012" summary="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop&#10;Fejlside oprettet, mangler justeringer&#10;Lavet Navigationsbar via jQuery og lavet den responsiv. Startet på kontaktformularen.&#10;rettet på små design fejl.&#10;mangler at justere kontaktformular, og tilføje billede til sponsor banner.&#10;Rettet på forskellige små justeringsfejl. Næsten færdig med hjemmesiden, men skal have skiftet header-billede.&#10;Rettet på justeringsfejl på alle sider.">
+      <created>1589844120793</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1589844120793</updated>
+    </task>
+    <task id="LOCAL-00013" summary="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop&#10;Fejlside oprettet, mangler justeringer&#10;Lavet Navigationsbar via jQuery og lavet den responsiv. Startet på kontaktformularen.&#10;rettet på små design fejl.&#10;mangler at justere kontaktformular, og tilføje billede til sponsor banner.&#10;Rettet på forskellige små justeringsfejl. Næsten færdig med hjemmesiden, men skal have skiftet header-billede.&#10;Rettet på justeringsfejl på alle sider.&#10;Mangler opengraph og andet finpudsning">
+      <created>1589926827106</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1589926827106</updated>
+    </task>
+    <task id="LOCAL-00014" summary="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop&#10;Fejlside oprettet, mangler justeringer&#10;Lavet Navigationsbar via jQuery og lavet den responsiv. Startet på kontaktformularen.&#10;rettet på små design fejl.&#10;mangler at justere kontaktformular, og tilføje billede til sponsor banner.&#10;Rettet på forskellige små justeringsfejl. Næsten færdig med hjemmesiden, men skal have skiftet header-billede.&#10;Rettet på justeringsfejl på alle sider.&#10;Mangler opengraph og andet finpudsning">
+      <created>1589927902155</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1589927902155</updated>
+    </task>
+    <task id="LOCAL-00015" summary="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop&#10;Fejlside oprettet, mangler justeringer&#10;Lavet Navigationsbar via jQuery og lavet den responsiv. Startet på kontaktformularen.&#10;rettet på små design fejl.&#10;mangler at justere kontaktformular, og tilføje billede til sponsor banner.&#10;Rettet på forskellige små justeringsfejl. Næsten færdig med hjemmesiden, men skal have skiftet header-billede.&#10;Rettet på justeringsfejl på alle sider.&#10;Mangler opengraph og andet finpudsning&#10;Tilføjet meta og OG">
+      <created>1590622302413</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1590622302413</updated>
+    </task>
+    <task id="LOCAL-00016" summary="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop&#10;Fejlside oprettet, mangler justeringer&#10;Lavet Navigationsbar via jQuery og lavet den responsiv. Startet på kontaktformularen.&#10;rettet på små design fejl.&#10;mangler at justere kontaktformular, og tilføje billede til sponsor banner.&#10;Rettet på forskellige små justeringsfejl. Næsten færdig med hjemmesiden, men skal have skiftet header-billede.&#10;Rettet på justeringsfejl på alle sider.&#10;Mangler opengraph og andet finpudsning&#10;Tilføjet meta og OG">
+      <created>1590669627234</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1590669627234</updated>
+    </task>
+    <task id="LOCAL-00017" summary="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop&#10;Fejlside oprettet, mangler justeringer&#10;Lavet Navigationsbar via jQuery og lavet den responsiv. Startet på kontaktformularen.&#10;rettet på små design fejl.&#10;mangler at justere kontaktformular, og tilføje billede til sponsor banner.&#10;Rettet på forskellige små justeringsfejl. Næsten færdig med hjemmesiden, men skal have skiftet header-billede.&#10;Rettet på justeringsfejl på alle sider.&#10;Mangler opengraph og andet finpudsning&#10;Tilføjet meta og OG&#10;Rettet billeder">
+      <created>1591267410862</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1591267410862</updated>
+    </task>
+    <task id="LOCAL-00018" summary="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop&#10;Fejlside oprettet, mangler justeringer&#10;Lavet Navigationsbar via jQuery og lavet den responsiv. Startet på kontaktformularen.&#10;rettet på små design fejl.&#10;mangler at justere kontaktformular, og tilføje billede til sponsor banner.&#10;Rettet på forskellige små justeringsfejl. Næsten færdig med hjemmesiden, men skal have skiftet header-billede.&#10;Rettet på justeringsfejl på alle sider.&#10;Mangler opengraph og andet finpudsning&#10;Tilføjet meta og OG&#10;Rettet billeder&#10;Helt færdig med siden">
+      <created>1591293591287</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1591293591287</updated>
+    </task>
+    <task id="LOCAL-00019" summary="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop&#10;Fejlside oprettet, mangler justeringer&#10;Lavet Navigationsbar via jQuery og lavet den responsiv. Startet på kontaktformularen.&#10;rettet på små design fejl.&#10;mangler at justere kontaktformular, og tilføje billede til sponsor banner.&#10;Rettet på forskellige små justeringsfejl. Næsten færdig med hjemmesiden, men skal have skiftet header-billede.&#10;Rettet på justeringsfejl på alle sider.&#10;Mangler opengraph og andet finpudsning&#10;Tilføjet meta og OG&#10;Rettet billeder&#10;Helt færdig med siden">
+      <created>1591293919832</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1591293919832</updated>
+    </task>
+    <task id="LOCAL-00020" summary="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop&#10;Fejlside oprettet, mangler justeringer&#10;Lavet Navigationsbar via jQuery og lavet den responsiv. Startet på kontaktformularen.&#10;rettet på små design fejl.&#10;mangler at justere kontaktformular, og tilføje billede til sponsor banner.&#10;Rettet på forskellige små justeringsfejl. Næsten færdig med hjemmesiden, men skal have skiftet header-billede.&#10;Rettet på justeringsfejl på alle sider.&#10;Mangler opengraph og andet finpudsning&#10;Tilføjet meta og OG&#10;Rettet billeder&#10;Helt færdig med siden">
+      <created>1591294132977</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1591294132977</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="alle sider er lavet, men de skal justeres" />
+    <MESSAGE value="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer" />
+    <MESSAGE value="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop" />
+    <MESSAGE value="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop&#10;Fejlside oprettet, mangler justeringer" />
+    <MESSAGE value="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop&#10;Fejlside oprettet, mangler justeringer&#10;Lavet Navigationsbar via jQuery og lavet den responsiv. Startet på kontaktformularen." />
+    <MESSAGE value="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop&#10;Fejlside oprettet, mangler justeringer&#10;Lavet Navigationsbar via jQuery og lavet den responsiv. Startet på kontaktformularen.&#10;rettet på små design fejl.&#10;mangler at justere kontaktformular, og tilføje billede til sponsor banner." />
+    <MESSAGE value="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop&#10;Fejlside oprettet, mangler justeringer&#10;Lavet Navigationsbar via jQuery og lavet den responsiv. Startet på kontaktformularen.&#10;rettet på små design fejl.&#10;mangler at justere kontaktformular, og tilføje billede til sponsor banner.&#10;Rettet på forskellige små justeringsfejl. Næsten færdig med hjemmesiden, men skal have skiftet header-billede." />
+    <MESSAGE value="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop&#10;Fejlside oprettet, mangler justeringer&#10;Lavet Navigationsbar via jQuery og lavet den responsiv. Startet på kontaktformularen.&#10;rettet på små design fejl.&#10;mangler at justere kontaktformular, og tilføje billede til sponsor banner.&#10;Rettet på forskellige små justeringsfejl. Næsten færdig med hjemmesiden, men skal have skiftet header-billede.&#10;Rettet på justeringsfejl på alle sider." />
+    <MESSAGE value="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop&#10;Fejlside oprettet, mangler justeringer&#10;Lavet Navigationsbar via jQuery og lavet den responsiv. Startet på kontaktformularen.&#10;rettet på små design fejl.&#10;mangler at justere kontaktformular, og tilføje billede til sponsor banner.&#10;Rettet på forskellige små justeringsfejl. Næsten færdig med hjemmesiden, men skal have skiftet header-billede.&#10;Rettet på justeringsfejl på alle sider.&#10;Mangler opengraph og andet finpudsning" />
+    <MESSAGE value="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop&#10;Fejlside oprettet, mangler justeringer&#10;Lavet Navigationsbar via jQuery og lavet den responsiv. Startet på kontaktformularen.&#10;rettet på små design fejl.&#10;mangler at justere kontaktformular, og tilføje billede til sponsor banner.&#10;Rettet på forskellige små justeringsfejl. Næsten færdig med hjemmesiden, men skal have skiftet header-billede.&#10;Rettet på justeringsfejl på alle sider.&#10;Mangler opengraph og andet finpudsning&#10;Tilføjet meta og OG" />
+    <MESSAGE value="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop&#10;Fejlside oprettet, mangler justeringer&#10;Lavet Navigationsbar via jQuery og lavet den responsiv. Startet på kontaktformularen.&#10;rettet på små design fejl.&#10;mangler at justere kontaktformular, og tilføje billede til sponsor banner.&#10;Rettet på forskellige små justeringsfejl. Næsten færdig med hjemmesiden, men skal have skiftet header-billede.&#10;Rettet på justeringsfejl på alle sider.&#10;Mangler opengraph og andet finpudsning&#10;Tilføjet meta og OG&#10;Rettet billeder" />
+    <MESSAGE value="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop&#10;Fejlside oprettet, mangler justeringer&#10;Lavet Navigationsbar via jQuery og lavet den responsiv. Startet på kontaktformularen.&#10;rettet på små design fejl.&#10;mangler at justere kontaktformular, og tilføje billede til sponsor banner.&#10;Rettet på forskellige små justeringsfejl. Næsten færdig med hjemmesiden, men skal have skiftet header-billede.&#10;Rettet på justeringsfejl på alle sider.&#10;Mangler opengraph og andet finpudsning&#10;Tilføjet meta og OG&#10;Rettet billeder&#10;Helt færdig med siden" />
+    <option name="LAST_COMMIT_MESSAGE" value="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop&#10;Fejlside oprettet, mangler justeringer&#10;Lavet Navigationsbar via jQuery og lavet den responsiv. Startet på kontaktformularen.&#10;rettet på små design fejl.&#10;mangler at justere kontaktformular, og tilføje billede til sponsor banner.&#10;Rettet på forskellige små justeringsfejl. Næsten færdig med hjemmesiden, men skal have skiftet header-billede.&#10;Rettet på justeringsfejl på alle sider.&#10;Mangler opengraph og andet finpudsning&#10;Tilføjet meta og OG&#10;Rettet billeder&#10;Helt færdig med siden" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589842778122">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="184" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.797@0.23.1440.797" timestamp="1589842778122" />
+    <state x="441" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589414385090">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="441" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.797@0.23.1440.797" timestamp="1589414385090" />
+    <state x="458" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591349099312">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="458" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.797@0.23.1440.797" timestamp="1591349099312" />
+    <state x="100" y="123" width="1240" height="557" key="DiffContextDialog" timestamp="1591268498066">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="100" y="123" width="1240" height="557" key="DiffContextDialog/0.23.1440.797@0.23.1440.797" timestamp="1591268498066" />
+    <state x="372" y="207" key="EditFileWatcherDialog" timestamp="1591349473743">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="372" y="207" key="EditFileWatcherDialog/0.23.1440.797@0.23.1440.797" timestamp="1591349473743" />
+    <state x="221" y="60" key="SettingsEditor" timestamp="1591349685729">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="221" y="60" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1591349685729" />
+    <state x="320" y="141" key="Vcs.Push.Dialog.v2" timestamp="1591294145154">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="320" y="141" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1591294145154" />
+    <state x="392" y="197" key="git4idea.merge.GitPullDialog" timestamp="1591267830299">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="392" y="197" key="git4idea.merge.GitPullDialog/0.23.1440.797@0.23.1440.797" timestamp="1591267830299" />
+    <state x="493" y="297" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1591267516568">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="493" y="297" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1440.797@0.23.1440.797" timestamp="1591267516568" />
+    <state x="385" y="144" width="670" height="676" key="search.everywhere.popup" timestamp="1589735808709">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="385" y="144" width="670" height="676" key="search.everywhere.popup/0.23.1440.797@0.23.1440.797" timestamp="1589735808709" />
+  </component>
+</project>
