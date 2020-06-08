@@ -24,13 +24,20 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a694a155-8d1c-439c-b560-5f944146f7f8" name="Default Changelist" comment="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop&#10;Fejlside oprettet, mangler justeringer&#10;Lavet Navigationsbar via jQuery og lavet den responsiv. Startet på kontaktformularen.&#10;rettet på små design fejl.&#10;mangler at justere kontaktformular, og tilføje billede til sponsor banner.&#10;Rettet på forskellige små justeringsfejl. Næsten færdig med hjemmesiden, men skal have skiftet header-billede.&#10;Rettet på justeringsfejl på alle sider.&#10;Mangler opengraph og andet finpudsning&#10;Tilføjet meta og OG&#10;Rettet billeder&#10;Helt færdig med siden">
-      <change afterPath="$PROJECT_DIR$/images/tickets404-12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fejl404.html" beforeDir="false" afterPath="$PROJECT_DIR$/fejl404.html" afterDir="false" />
+    <list default="true" id="a694a155-8d1c-439c-b560-5f944146f7f8" name="Default Changelist" comment="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop&#10;Fejlside oprettet, mangler justeringer&#10;Lavet Navigationsbar via jQuery og lavet den responsiv. Startet på kontaktformularen.&#10;rettet på små design fejl.&#10;mangler at justere kontaktformular, og tilføje billede til sponsor banner.&#10;Rettet på forskellige små justeringsfejl. Næsten færdig med hjemmesiden, men skal have skiftet header-billede.&#10;Rettet på justeringsfejl på alle sider.&#10;Mangler opengraph og andet finpudsning&#10;Tilføjet meta og OG&#10;Rettet billeder&#10;Helt færdig med siden&#10;rettet fejlside">
+      <change afterPath="$PROJECT_DIR$/images/footer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/7cec1367a10bf5ac419eba29b77de9e1fd6b3ba0/fejlStyle.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/7cec1367a10bf5ac419eba29b77de9e1fd6b3ba0/fejlStyle.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billetStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/billetStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billetStyle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/billetStyle.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fejlStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/fejlStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fejlStyle.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/fejlStyle.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fejlStyle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/fejlStyle.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tickets404-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/footer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sponsor.html" beforeDir="false" afterPath="$PROJECT_DIR$/sponsor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sponsorStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/sponsorStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sponsorStyle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sponsorStyle.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +108,8 @@
       <workItem from="1589140513413" duration="38965000" />
       <workItem from="1589926952808" duration="24593000" />
       <workItem from="1591294073589" duration="83000" />
-      <workItem from="1591348997777" duration="978000" />
+      <workItem from="1591348997777" duration="1030000" />
+      <workItem from="1591650460687" duration="327000" />
     </task>
     <task id="LOCAL-00001" summary="alle sider er lavet, men de skal justeres">
       <created>1589189597105</created>
@@ -243,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591294132977</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop&#10;Fejlside oprettet, mangler justeringer&#10;Lavet Navigationsbar via jQuery og lavet den responsiv. Startet på kontaktformularen.&#10;rettet på små design fejl.&#10;mangler at justere kontaktformular, og tilføje billede til sponsor banner.&#10;Rettet på forskellige små justeringsfejl. Næsten færdig med hjemmesiden, men skal have skiftet header-billede.&#10;Rettet på justeringsfejl på alle sider.&#10;Mangler opengraph og andet finpudsning&#10;Tilføjet meta og OG&#10;Rettet billeder&#10;Helt færdig med siden&#10;rettet fejlside">
+      <created>1591350027938</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1591350027938</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,7 +289,8 @@
     <MESSAGE value="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop&#10;Fejlside oprettet, mangler justeringer&#10;Lavet Navigationsbar via jQuery og lavet den responsiv. Startet på kontaktformularen.&#10;rettet på små design fejl.&#10;mangler at justere kontaktformular, og tilføje billede til sponsor banner.&#10;Rettet på forskellige små justeringsfejl. Næsten færdig med hjemmesiden, men skal have skiftet header-billede.&#10;Rettet på justeringsfejl på alle sider.&#10;Mangler opengraph og andet finpudsning&#10;Tilføjet meta og OG" />
     <MESSAGE value="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop&#10;Fejlside oprettet, mangler justeringer&#10;Lavet Navigationsbar via jQuery og lavet den responsiv. Startet på kontaktformularen.&#10;rettet på små design fejl.&#10;mangler at justere kontaktformular, og tilføje billede til sponsor banner.&#10;Rettet på forskellige små justeringsfejl. Næsten færdig med hjemmesiden, men skal have skiftet header-billede.&#10;Rettet på justeringsfejl på alle sider.&#10;Mangler opengraph og andet finpudsning&#10;Tilføjet meta og OG&#10;Rettet billeder" />
     <MESSAGE value="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop&#10;Fejlside oprettet, mangler justeringer&#10;Lavet Navigationsbar via jQuery og lavet den responsiv. Startet på kontaktformularen.&#10;rettet på små design fejl.&#10;mangler at justere kontaktformular, og tilføje billede til sponsor banner.&#10;Rettet på forskellige små justeringsfejl. Næsten færdig med hjemmesiden, men skal have skiftet header-billede.&#10;Rettet på justeringsfejl på alle sider.&#10;Mangler opengraph og andet finpudsning&#10;Tilføjet meta og OG&#10;Rettet billeder&#10;Helt færdig med siden" />
-    <option name="LAST_COMMIT_MESSAGE" value="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop&#10;Fejlside oprettet, mangler justeringer&#10;Lavet Navigationsbar via jQuery og lavet den responsiv. Startet på kontaktformularen.&#10;rettet på små design fejl.&#10;mangler at justere kontaktformular, og tilføje billede til sponsor banner.&#10;Rettet på forskellige små justeringsfejl. Næsten færdig med hjemmesiden, men skal have skiftet header-billede.&#10;Rettet på justeringsfejl på alle sider.&#10;Mangler opengraph og andet finpudsning&#10;Tilføjet meta og OG&#10;Rettet billeder&#10;Helt færdig med siden" />
+    <MESSAGE value="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop&#10;Fejlside oprettet, mangler justeringer&#10;Lavet Navigationsbar via jQuery og lavet den responsiv. Startet på kontaktformularen.&#10;rettet på små design fejl.&#10;mangler at justere kontaktformular, og tilføje billede til sponsor banner.&#10;Rettet på forskellige små justeringsfejl. Næsten færdig med hjemmesiden, men skal have skiftet header-billede.&#10;Rettet på justeringsfejl på alle sider.&#10;Mangler opengraph og andet finpudsning&#10;Tilføjet meta og OG&#10;Rettet billeder&#10;Helt færdig med siden&#10;rettet fejlside" />
+    <option name="LAST_COMMIT_MESSAGE" value="alle sider er lavet, men de skal justeres&#10;Banner er lavet og nu mangler der små justeringer&#10;Startet på at lave siden til desktop&#10;Fejlside oprettet, mangler justeringer&#10;Lavet Navigationsbar via jQuery og lavet den responsiv. Startet på kontaktformularen.&#10;rettet på små design fejl.&#10;mangler at justere kontaktformular, og tilføje billede til sponsor banner.&#10;Rettet på forskellige små justeringsfejl. Næsten færdig med hjemmesiden, men skal have skiftet header-billede.&#10;Rettet på justeringsfejl på alle sider.&#10;Mangler opengraph og andet finpudsning&#10;Tilføjet meta og OG&#10;Rettet billeder&#10;Helt færdig med siden&#10;rettet fejlside" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589842778122">
@@ -285,10 +301,10 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="441" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.797@0.23.1440.797" timestamp="1589414385090" />
-    <state x="458" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591349099312">
+    <state x="458" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591650626562">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="458" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.797@0.23.1440.797" timestamp="1591349099312" />
+    <state x="458" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.797@0.23.1440.797" timestamp="1591650626562" />
     <state x="100" y="123" width="1240" height="557" key="DiffContextDialog" timestamp="1591268498066">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
